@@ -37,7 +37,7 @@
     visualEfView.frame =self.view.bounds;
     [self.backimage addSubview:visualEfView];
     
-    _background=[[LSWtextFieldBackground alloc]initWithFrame:CGRectMake(0,150,self.view.frame.size.width,100)];
+    _background = [[LSWtextFieldBackground alloc] initWithFrame:CGRectMake(0,150,self.view.frame.size.width,100)];
     [_background setBackgroundColor:[UIColor whiteColor]];
     [[_background layer]setCornerRadius:5];
     [[_background layer]setMasksToBounds:YES];
@@ -56,6 +56,8 @@
     _password.layer.cornerRadius=5.0;
     _password.secureTextEntry=YES;
     [_background addSubview:_password];
+    
+    
     _registerButton=[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [_registerButton setFrame:CGRectMake(10,270,(self.view.frame.size.width-70)/2,40)];
     [_registerButton.layer setCornerRadius:20];
@@ -91,7 +93,7 @@
 }
 - (void)rigistAction {
     LSWRigistViewController *vc = [[LSWRigistViewController alloc] init];
-    [self presentViewController:vc animated:NO completion:nil];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 - (UIImageView *) backimage{
     if (!_backimage) {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		415FE757723FF41A9AAEEAAD /* libPods-videoPlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA32765E192FC018B1213DD /* libPods-videoPlay.a */; };
+		9F3F2EEF20AB4ABE00A5FB2D /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F2EEE20AB4ABE00A5FB2D /* RegistViewController.m */; };
+		9FA4C81720AB371900A3A25F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4C81620AB371900A3A25F /* LoginViewController.m */; };
 		FF114163209C53020009A300 /* LSWTextInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114162209C53020009A300 /* LSWTextInputViewController.m */; };
 		FF114166209C581A0009A300 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114165209C581A0009A300 /* UITextView+Placeholder.m */; };
 		FF114169209C59950009A300 /* UIViewController+AlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF114168209C59950009A300 /* UIViewController+AlertMessage.m */; };
@@ -54,6 +56,10 @@
 /* Begin PBXFileReference section */
 		41BD9E68E9C6FFE2FA87A736 /* Pods-videoPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay.release.xcconfig"; sourceTree = "<group>"; };
 		9219BDC14E3AD90779B8B8FC /* Pods-videoPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlay/Pods-videoPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3F2EED20AB4ABE00A5FB2D /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		9F3F2EEE20AB4ABE00A5FB2D /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		9FA4C81520AB371900A3A25F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9FA4C81620AB371900A3A25F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		BEA32765E192FC018B1213DD /* libPods-videoPlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoPlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF114161209C53020009A300 /* LSWTextInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWTextInputViewController.h; sourceTree = "<group>"; };
 		FF114162209C53020009A300 /* LSWTextInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWTextInputViewController.m; sourceTree = "<group>"; };
@@ -394,6 +400,10 @@
 				FFF20176209FED3000556263 /* LSWLoginInfoModel.m */,
 				FFF2017F20A07DBA00556263 /* LSWRigistTextView.h */,
 				FFF2018020A07DBA00556263 /* LSWRigistTextView.m */,
+				9FA4C81520AB371900A3A25F /* LoginViewController.h */,
+				9FA4C81620AB371900A3A25F /* LoginViewController.m */,
+				9F3F2EED20AB4ABE00A5FB2D /* RegistViewController.h */,
+				9F3F2EEE20AB4ABE00A5FB2D /* RegistViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -555,6 +565,7 @@
 			files = (
 				FF31298C207A5F64003C6AE5 /* ViewController.m in Sources */,
 				FF5BBE1D207B4C9400891E37 /* LSWRankViewController.m in Sources */,
+				9FA4C81720AB371900A3A25F /* LoginViewController.m in Sources */,
 				FF5BBE23207B540A00891E37 /* LSWVideoNextViewController.m in Sources */,
 				FF114166209C581A0009A300 /* UITextView+Placeholder.m in Sources */,
 				FF114163209C53020009A300 /* LSWTextInputViewController.m in Sources */,
@@ -566,6 +577,7 @@
 				FFF2018B20A095F000556263 /* LSWtbVideoModel.m in Sources */,
 				FFF20174209FEC9F00556263 /* LSWtextFieldBackground.m in Sources */,
 				FF20B8E7207EE5EA00108FFF /* SelPlaybackControls.m in Sources */,
+				9F3F2EEF20AB4ABE00A5FB2D /* RegistViewController.m in Sources */,
 				FFF20177209FED3000556263 /* LSWLoginInfoModel.m in Sources */,
 				FFDEFE12209959B700670614 /* LSWPublishCell.m in Sources */,
 				FF312989207A5F64003C6AE5 /* AppDelegate.m in Sources */,
