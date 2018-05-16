@@ -15,6 +15,7 @@
 #import "LSWVideoNextViewController.h"
 #import "UIColor+Hex.h"
 #import "LSWLoginViewController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 @property (nonatomic ,strong) UITabBarController *tabBarController;
@@ -34,8 +35,10 @@
     [self.tabBarController.tabBarItem setTitleTextAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0F],  NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
     self.tabBarController.tabBar.tintColor = [UIColor colorWithHexString:@"#EE82EE"];
 //    LoginView *login = [[LoginView alloc]init];
-    LSWLoginViewController *loginVC = [[LSWLoginViewController alloc] init];
+//    LSWLoginViewController *loginVC = [[LSWLoginViewController alloc] init];
 //    self.window.rootViewController = loginVC;
+    
+    LoginViewController *loginVc = [[LoginViewController alloc] init];
     
     self.window.rootViewController = self.tabBarController;
     
@@ -49,33 +52,33 @@
     nav2.tabBarItem.title = @"排行";
     nav2.tabBarItem.image = [UIImage imageNamed:@"rank"];
 
-    
-    
-    
+
+
+
     //    UIViewController *c2 = [[NewsView alloc]init];
     WMPageController *WMPVc = [self createPages];
     UINavigationController *nav1= [[UINavigationController alloc]initWithRootViewController:WMPVc];
     nav1.tabBarItem.title = @"首页";
     nav1.tabBarItem.image = [UIImage imageNamed:@"home"];
-    
-    
+
+
     UIViewController *pubVc = [[LSWPublishViewController alloc]init];
     UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:pubVc];
     nav3.view.backgroundColor = [UIColor whiteColor];
     nav3.tabBarItem.title = @"动态";
     nav3.tabBarItem.image = [UIImage imageNamed:@"publish"];
-    
-    
+
+
     UIViewController *personalVc = [[LSWPersonalViewController alloc]init];
     UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:personalVc];
     nav4.view.backgroundColor = [UIColor grayColor];
     nav4.tabBarItem.title = @"我的";
     nav4.tabBarItem.image = [UIImage imageNamed:@"personal"];
-    
-    
+
+
     self.tabBarController.viewControllers = @[nav1,nav2,nav3,nav4];
     [self.window makeKeyAndVisible];
-    [self.tabBarController presentViewController:loginVC animated:YES completion:nil];
+    [self.tabBarController presentViewController:loginVc animated:YES completion:nil];
     
     return YES;
 }

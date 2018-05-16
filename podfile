@@ -13,6 +13,6 @@ pod 'TZImagePickerController'
 pod 'YYModel'
 #pod 'SDWebImage', '~> 4.0'
 
-
+pod 'Reveal-SDK', '~> 4', :configurations => ['Debug']
 
 end
