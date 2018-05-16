@@ -38,6 +38,7 @@
 		FF5BBE23207B540A00891E37 /* LSWVideoNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE22207B540A00891E37 /* LSWVideoNextViewController.m */; };
 		FF5BBE27207B719100891E37 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE26207B719100891E37 /* UIColor+Hex.m */; };
 		FF5BBE2A207CA8F200891E37 /* LSWVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5BBE29207CA8F200891E37 /* LSWVideoCollectionViewCell.m */; };
+		FF71332320AB4A4900794E5A /* LSWOtherPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF71332220AB4A4900794E5A /* LSWOtherPersonalViewController.m */; };
 		FF77DAE2209EEB1A007AFA87 /* cbsNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = FF77DAE1209EEB1A007AFA87 /* cbsNetWork.m */; };
 		FFDEFE12209959B700670614 /* LSWPublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDEFE11209959B700670614 /* LSWPublishCell.m */; };
 		FFF20171209FEC1300556263 /* LSWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF20170209FEC1300556263 /* LSWLoginViewController.m */; };
@@ -113,6 +114,8 @@
 		FF5BBE26207B719100891E37 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		FF5BBE28207CA8F200891E37 /* LSWVideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWVideoCollectionViewCell.h; sourceTree = "<group>"; };
 		FF5BBE29207CA8F200891E37 /* LSWVideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		FF71332120AB4A4900794E5A /* LSWOtherPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWOtherPersonalViewController.h; sourceTree = "<group>"; };
+		FF71332220AB4A4900794E5A /* LSWOtherPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWOtherPersonalViewController.m; sourceTree = "<group>"; };
 		FF77DAE0209EEB1A007AFA87 /* cbsNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbsNetWork.h; sourceTree = "<group>"; };
 		FF77DAE1209EEB1A007AFA87 /* cbsNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cbsNetWork.m; sourceTree = "<group>"; };
 		FFDEFE10209959B700670614 /* LSWPublishCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWPublishCell.h; sourceTree = "<group>"; };
@@ -334,6 +337,8 @@
 				FF5BBE1F207B4D0700891E37 /* LSWPersonalViewController.m */,
 				FF25A14720A2FDC1004FC613 /* LSWvideoListViewController.h */,
 				FF25A14820A2FDC1004FC613 /* LSWvideoListViewController.m */,
+				FF71332120AB4A4900794E5A /* LSWOtherPersonalViewController.h */,
+				FF71332220AB4A4900794E5A /* LSWOtherPersonalViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -553,6 +558,7 @@
 				FF583FF4208C603400568161 /* SelVideoViewController.m in Sources */,
 				FF312997207A5F64003C6AE5 /* main.m in Sources */,
 				FF5BBE27207B719100891E37 /* UIColor+Hex.m in Sources */,
+				FF71332320AB4A4900794E5A /* LSWOtherPersonalViewController.m in Sources */,
 				FF43C4BB209A0C8100008829 /* LSWCommentCell.m in Sources */,
 				FFF2018B20A095F000556263 /* LSWtbVideoModel.m in Sources */,
 				FFF20174209FEC9F00556263 /* LSWtextFieldBackground.m in Sources */,

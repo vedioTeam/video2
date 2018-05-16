@@ -208,7 +208,8 @@ static NSString *cellIdentifier3=@"UITableViewCellIdentifierKey3";
         configuration.shouldAutorotate = YES;
         configuration.repeatPlay = YES;
         configuration.statusBarHideState = SelStatusBarHideStateFollowControls;
-        configuration.sourceUrl = [NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_02.mp4"];
+//        configuration.sourceUrl = [NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_02.mp4"];
+        configuration.sourceUrl = [NSURL URLWithString:self.model.tbVideoDTO.videourl];
         configuration.videoGravity = SelVideoGravityResizeAspect;
         
         CGFloat width = self.view.frame.size.width;
